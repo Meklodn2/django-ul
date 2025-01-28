@@ -1,4 +1,4 @@
-# Django Project: [Your Project Name]
+# Django Project: [Django-ul]
 
 ## Overview
 
@@ -17,5 +17,5 @@ To run this project, you need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-project.git
-   cd your-project
+   git clone https://github.com/Meklodn2/django-ul.git
+   cd django-ul
