@@ -2,11 +2,10 @@
 {% load static %}
 
 {% block title %}Item list{% endblock  %}
-{% block header %}Item list{% endblock  %}
+{% block header %}Confirm delete{% endblock  %}
 
 {% block content %}
-<h1 class="mb-4">Confirm delete</h1>
-<p>Are yo sure that yo want delete it"<strong>{{ item.name }}</strong>"</p>
+<p>Are yo sure that yo want delete it "<strong>{{ item.name }}</strong>"?</p>
 <form method="post">
     <button type="submit" class="btn btn-danger">Yes, delete</button>
     {% csrf_token %}
